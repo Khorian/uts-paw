@@ -4,7 +4,7 @@
     "judul": "Lari Pagi di Embung C",
     "kategori": "Kardio",
     "tanggal": "2026-10-01",
-    "durasi": 30,
+    "durasi": "30 Menit",
     "kalori": 250
   },
   {
@@ -12,7 +12,7 @@
     "judul": "Push Up Rutin Malam",
     "kategori": "Kekuatan",
     "tanggal": "2026-10-02",
-    "durasi": 15,
+    "durasi": "15 Menit",
     "kalori": 120
   },
   {
@@ -20,7 +20,7 @@
     "judul": "Sepeda Santai Keliling Kampus",
     "kategori": "Kardio",
     "tanggal": "2026-10-03",
-    "durasi": 45,
+    "durasi": "45 Menit",
     "kalori": 350
   },
   {
@@ -28,7 +28,7 @@
     "judul": "Plank dan Core Workout",
     "kategori": "Fleksibilitas",
     "tanggal": "2026-10-04",
-    "durasi": 20,
+    "durasi": "20 Menit",,
     "kalori": 100
   },
   {
@@ -36,7 +36,7 @@
     "judul": "Renang di Kolam Terbuka",
     "kategori": "Kardio",
     "tanggal": "2026-10-05",
-    "durasi": 60,
+    "durasi": "60 Menit",
     "kalori": 500
   },
   {
@@ -44,7 +44,7 @@
     "judul": "Senam Aerobik Ringan",
     "kategori": "Kardio",
     "tanggal": "2026-10-06",
-    "durasi": 30,
+    "durasi": "30 Menit",
     "kalori": 200
   },
   {
@@ -52,7 +52,7 @@
     "judul": "Latihan Beban Dumbel",
     "kategori": "Kekuatan",
     "tanggal": "2026-10-07",
-    "durasi": 40,
+    "durasi": "40 Menit",
     "kalori": 280
   },
   {
@@ -60,7 +60,7 @@
     "judul": "Yoga Peregangan Otot",
     "kategori": "Fleksibilitas",
     "tanggal": "2026-10-08",
-    "durasi": 25,
+    "durasi": "25 Menit",
     "kalori": 90
   },
   {
@@ -68,7 +68,7 @@
     "judul": "Jogging Sore di Lapangan",
     "kategori": "Kardio",
     "tanggal": "2026-10-09",
-    "durasi": 35,
+    "durasi": "35 Menit",
     "kalori": 300
   },
   {
@@ -76,7 +76,7 @@
     "judul": "Squat dan Lunges",
     "kategori": "Kekuatan",
     "tanggal": "2026-10-10",
-    "durasi": 20,
+    "durasi": "20 Menit",
     "kalori": 160
   }
 ]
