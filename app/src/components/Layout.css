@@ -16,8 +16,32 @@
   gap: 1rem;
 }
 
+.menu a {
+  text-decoration: none;
+  color: #24292f;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.menu a:hover {
+  background-color: #f1f1f1;
+}
+
+.menu a:focus {
+  outline: 2px solid #0969da;
+}
+
 .menu a.active {
   font-weight: 600;
+}
+
+.menu a.active::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background: #0969da;
+  margin-top: 2px;
 }
 
 .isi {
@@ -33,6 +57,19 @@
   border-top: 1px solid #dcdcdc;
   color: #57606a;
   font-size: 0.9rem;
+}
+
+/* Selektor ID untuk Bonus X1 */
+#app-root {
+  font-family: inherit;
+}
+
+#header-utama {
+  border-bottom: 1px solid #eaeaea;
+}
+
+#footer-utama {
+  background-color: #fafafa;
 }
 
 @media (max-width: 768px) {

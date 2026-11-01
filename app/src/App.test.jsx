@@ -6,8 +6,7 @@ import TidakDitemukan from './pages/TidakDitemukan.jsx'
 import KotakPencarian from './components/KotakPencarian.jsx'
 import Tentang from './pages/Tentang.jsx'
 
-// Test 1: Rute tidak dikenal menampilkan 404 pada App
-test('rute tidak dikenal menampilkan 404', () => {
+test('1. rute tidak dikenal menampilkan 404', () => {
   render(
     <MemoryRouter initialEntries={['/tidak-ada']}>
       <App />
@@ -16,8 +15,7 @@ test('rute tidak dikenal menampilkan 404', () => {
   expect(screen.getByRole('heading', { name: '404' })).toBeInTheDocument()
 })
 
-// Test 2: Halaman 404 mandiri memuat teks 404 dan tautan kembali
-test('halaman tidak ditemukan memuat teks 404', () => {
+test('2. halaman tidak ditemukan memuat teks 404', () => {
   render(
     <MemoryRouter>
       <TidakDitemukan />
@@ -27,16 +25,14 @@ test('halaman tidak ditemukan memuat teks 404', () => {
   expect(screen.getByRole('link', { name: /kembali ke beranda/i })).toBeInTheDocument()
 })
 
-// Test 3: KotakPencarian merender input tipe search dengan benar
-test('kotak pencarian merender input tipe search', () => {
+test('3. kotak pencarian merender input tipe search', () => {
   render(<KotakPencarian nilai="" onUbah={() => {}} />)
   const inputSearch = screen.getByRole('searchbox')
   expect(inputSearch).toBeInTheDocument()
   expect(inputSearch).toHaveAttribute('type', 'search')
 })
 
-// Test 4: Halaman Tentang menampilkan informasi nama dan NIM mahasiswa
-test('halaman tentang menampilkan nama dan NIM', () => {
+test('4. halaman tentang menampilkan nama dan NIM', () => {
   render(
     <MemoryRouter>
       <Tentang />
@@ -46,8 +42,7 @@ test('halaman tentang menampilkan nama dan NIM', () => {
   expect(screen.getByText(/123140006/i)).toBeInTheDocument()
 })
 
-// Test 5: Beranda atau rute utama aplikasi merender judul tema latihan
-test('rute utama merender judul beranda', () => {
+test('5. rute utama merender judul beranda', () => {
   render(
     <MemoryRouter initialEntries={['/']}>
       <App />
