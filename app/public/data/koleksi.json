@@ -49,7 +49,7 @@
   },
   {
     "id": "7",
-    "judul": "Latihan Beban Dumbbell",
+    "judul": "Latihan Beban Dumbel",
     "kategori": "Kekuatan",
     "tanggal": "2026-10-07",
     "durasi": 40,
@@ -65,7 +65,7 @@
   },
   {
     "id": "9",
-    "judul": "Jogging Sore di Lapangan Utama",
+    "judul": "Jogging Sore di Lapangan",
     "kategori": "Kardio",
     "tanggal": "2026-10-09",
     "durasi": 35,
@@ -73,7 +73,7 @@
   },
   {
     "id": "10",
-    "judul": "Squat dan Lunges Mandiri",
+    "judul": "Squat dan Lunges",
     "kategori": "Kekuatan",
     "tanggal": "2026-10-10",
     "durasi": 20,
